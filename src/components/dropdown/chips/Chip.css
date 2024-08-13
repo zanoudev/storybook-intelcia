@@ -1,0 +1,44 @@
+.chip-container {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    display: inline-flex;
+    padding: 5px 6px 5px 12px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 60px;
+    background: var(--Primary-50, #FFF6FA);
+}
+
+.chip-container.with-avatar {
+    padding: 5px 12px 5px 12px;
+
+}
+
+.chip-text {
+    color: var(--Grey-01, #546080);
+    
+    /* Inter/Text/xs/Medium */
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px; /* 150% */
+}
+
+/* states */
+.chip-container:hover {
+    border: 1px solid var(--Primary-100, #FCE3ED);
+    background: var(--Primary-50, #FFF6FA);
+}
+
+.chip-container:active {
+    background: #FEEEF5;
+}
+
+.chip-container:active .chip-text {
+    color: var(--Colors-Light-Primary-Cerise-Red, #EA297C);
+}
+
+.chip-container.disabled, .chip-container.disabled .chip-text{
+    background: var(--Gray-100, #F2F4F7);
+    cursor: not-allowed;
+    color: var(--Grey-01, #546080);
+}

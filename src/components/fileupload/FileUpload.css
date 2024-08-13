@@ -1,0 +1,39 @@
+.file-upload-container {
+    display: flex;
+    width: 432px;
+    height: fit-content;
+    padding: 16px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    border-radius: 8px;
+    border: 1px solid var(--Gray-200, #EAECF0);
+    background: var(--Primary-50, #FFF6FA);
+}
+
+.featured-icon {
+    border-radius: 28px;
+    border: 6px solid var(--Gray-50, #F9FAFB);
+    background: var(--Gray-100, #F2F4F7);
+}
+
+.text-and-subtext {
+    font-weight: 400;
+    color: var(--Gray-500, var(--Gray-500, #667085));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+}
+
+.text {
+    font-size: 14px;
+}
+.text span {
+    color: var(--Primary-500, #EA287C);
+    font-weight: 500;
+}
+.subtext {
+    font-size: 12px;
+}

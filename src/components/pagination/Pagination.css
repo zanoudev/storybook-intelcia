@@ -1,0 +1,22 @@
+.pagination {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    border-top: 1px solid var(--Gray-200, #EAECF0);
+
+    width: 782px;
+    height: 32px;
+    padding: 11px 24px 16px 24px;
+}
+
+.pagination-control {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+}
+

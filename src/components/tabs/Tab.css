@@ -1,0 +1,53 @@
+.tab {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    display: inline-flex;
+    padding: 18px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 2px solid var(--Primary-200, #F9BED7);
+    background: var(--Base-White, #FFF);
+
+    cursor: pointer;
+}
+
+.tab.rounded {
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.tab:hover {
+    border-bottom: 2px solid var(--Primary-200, #F9BED7);
+    background: var(--Primary-50, #FFF6FA);
+    color: var(--Primary-400, #F173A9);
+}
+
+.tab.pressed {
+    border-bottom: 2px solid var(--Primary-500, #EA287C);
+    background: var(--Primary-100, #FCE3ED);
+    color: var(--Primary-500, #EA287C);
+}
+
+.tab.disabled {
+    border-bottom: 2px solid var(--Gray-300, #D0D5DD);
+    background: var(--Gray-50, #F7F7FC);
+    color: var(--Gray-300, #D0D5DD);
+}
+
+p {
+    margin: 0%;
+    padding: 0%;
+}
+
+.badge {
+    padding: 6px;
+    border-radius: 100px;
+    background: var(--colors-shades-primary-cerise-red-lightest, #FEF4F8);
+    color: var(--Colors-Light-Primary-Cerise-Red, #EA297C);
+}           
+
+.tab:hover .badge {
+    color: var(--Colors-Light-Primary-Cerise-Red, #EA297C);
+    background: var(--Base-White, #FFF);
+}

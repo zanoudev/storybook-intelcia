@@ -1,0 +1,37 @@
+import React from 'react';
+export interface IconProps {
+    color?: string;
+    height?: string;
+    width?: string;
+    viewBox?: string;
+}
+export declare const CheckmarkIcon: React.FC<IconProps>;
+export declare const MinusIcon: React.FC<IconProps>;
+export declare const EmailIcon: React.FC;
+export declare const UserIcon: React.FC<IconProps>;
+export declare const WarningIcon: React.FC<IconProps>;
+export declare const InfoIcon: React.FC<IconProps>;
+export declare const ErrorIcon: React.FC<IconProps>;
+export declare const CopiedIcon: React.FC<IconProps>;
+export declare const DownloadIcon: React.FC<IconProps>;
+export declare const LoadIcon: React.FC<IconProps>;
+export declare const PrinterIcon: React.FC<IconProps>;
+export declare const NoConnectionIcon: React.FC<IconProps>;
+export declare const UploadCloudIcon: React.FC<IconProps>;
+export declare const CloseIcon: React.FC<IconProps>;
+export declare const ChevronDownIcon: React.FC<IconProps>;
+export declare const ChevronUpIcon: React.FC<IconProps>;
+export declare const ChevronRightIcon: React.FC<IconProps>;
+export declare const ChevronLeftIcon: React.FC<IconProps>;
+export declare const ThreeDotsIcon: React.FC<IconProps>;
+export declare const EditIcon: React.FC<IconProps>;
+export declare const HelpCircleIcon: React.FC<IconProps>;
+export declare const RightArrowIcon: React.FC<IconProps>;
+export declare const UpArrowIcon: React.FC<IconProps>;
+export declare const DownArrowIcon: React.FC<IconProps>;
+export declare const CrownIcon: React.FC<IconProps>;
+export declare const ClockIcon: React.FC<IconProps>;
+export declare const HomeFilledIcon: React.FC<IconProps>;
+export declare const SlashDividerIcon: React.FC<IconProps>;
+export declare const LeftArrowCircleIcon: React.FC<IconProps>;
+export declare const RightArrowCircleIcon: React.FC<IconProps>;

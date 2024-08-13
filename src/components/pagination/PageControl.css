@@ -1,0 +1,39 @@
+.page-control {
+    /* font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+    font-family:sans-serif;
+
+    display: flex;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid var(--Gray-200, #EAECF0);
+    background: var(--Base-White, #FFF);
+
+    color: var(--Gray-500, #667085);
+}
+
+.page-control:hover {
+    background: var(--Primary-100, #FCE3ED);
+    color: var(--Primary-500, #EA287C);
+}
+
+.page-control.disabled {
+    background: var(--Gray-200, #EAECF0);
+    cursor: not-allowed;
+}
+
+.page-control.disabled:hover {
+    background: var(--Gray-200, #EAECF0);
+    cursor: not-allowed;
+    color: var(--Gray-500, #667085);
+}
+
+.page-control.pressed {
+    background-color: var(--Primary-500, #EA287C);
+    color: #fff;
+}
+

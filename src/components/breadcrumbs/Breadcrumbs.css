@@ -1,0 +1,27 @@
+.breadcrumbs {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 28px;
+}
+
+p {
+    margin: 0%;
+    padding: 0%;
+}
+
+.current {
+    display: flex;
+    padding: 8px;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background: var(--Primary-50, #FFF6FA);
+
+    color: var(--Primary-500, #EA287C);
+    font-size: 12px;
+    font-weight: 700;
+}

@@ -1,0 +1,63 @@
+/* AvatarBadge.css */
+.avatar-badge-container {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    position: relative;
+    display: inline-block;
+    font-size: 11px;
+  }
+  
+  .avatar-badge {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .avatar-badge.approved {
+    background-color: #8BC34A; /* Green background for approved */
+  }
+  
+  .avatar-badge.denied {
+    background-color: #F44336; /* Red background for denied */
+  }
+  
+  .initials {
+    text-transform: uppercase;
+  }
+  
+  .status-badge {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+
+    position: absolute;
+    bottom: -3px;
+    right: -11px; /* Adjust based on positioning */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    margin: 0% ;
+
+    background-color: white;
+    border: 2px solid white;
+    color: white;
+  }
+  
+  .status-badge.approved {
+    background-color: #DFF0D8; /* Light green for approved */
+    color: #4CAF50; /* Darker green for check mark */
+  }
+  
+  .status-badge.denied {
+    background-color: #F2DEDE; /* Light red for denied */
+    color: #F44336; /* Darker red for cross mark */
+  }
+  

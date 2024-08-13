@@ -1,0 +1,148 @@
+{/* Colors.mdx */}
+
+import { Meta, ColorPalette, ColorItem } from '@storybook/blocks';
+
+<Meta title="Colors" />
+
+# Colors
+La couleur distingue notre marque et renforce la cohérence des expériences entre les produits.
+
+## Primary Colors
+Il s'agit des couleurs principales qui constituent la majorité des couleurs utilisées dans le design system.
+<ColorPalette>
+    <ColorItem
+        title="Base"
+        subtitle= "Il s'agit de modèles de base en noir et blanc qui peuvent être rapidement remplacés en cas de besoin."
+        colors = {{
+            White: '#FFFFFF',
+            Black: '#000000',
+        }}
+    />
+
+    <ColorItem
+        title="Gray"
+        subtitle="Le gris est une couleur neutre et constitue la base du système de couleurs. 
+                Presque tous les éléments de la conception de l'interface utilisateur sont généralement gris."
+
+        colors={{ 
+            50: '#F7F7FC', 
+            100: '#F2F4F7', 
+            200: '#EAECF0',
+            300: '#D0D5DD',
+            400: '#98A2B3',
+            500: '#667085',
+            600: '#475467',
+            700: '#344054',
+            800: '#1D2939',
+            }}
+    />
+
+    <ColorItem
+        title="Intelcia (Brand)"
+        subtitle="À utiliser pour les actions principales ou les éléments qui communiquent la marque Atlassian."
+
+        colors={{ 
+            50: '#FFF6FA', 
+            100: '#FCE3ED', 
+            200: '#F9BED7',
+            300: '#F598C1',
+            400: '#F173A9',
+            500: '#EA287C',
+            600: '#D51568',
+            700: '#8B0F44',
+            800: '#660B31',
+            }}
+    />
+</ColorPalette>
+
+## Secondary Colors
+Il s'agit des couleurs secondaires qui constituent certaines des couleurs utilisées dans le design system.
+
+<ColorPalette>
+    <ColorItem
+        title="Danger"
+        subtitle= "À utiliser pour l'interface utilisateur qui communique les états de danger ou d'erreur grave."
+        colors={{ 
+            50: '#FFF3F2', 
+            100: '#FEE4E2', 
+            200: '#FECDCA',
+            300: '#FDA29B',
+            400: '#F97066',
+            500: '#F04438',
+            600: '#D92D20',
+            700: '#B42318',
+            800: '#912018',
+            }}
+    />
+
+    <ColorItem
+        title="Warning"
+        subtitle="À utiliser pour l'interface utilisateur qui communique une mise en garde pour éviter qu'une erreur ou une erreur ne se produise."
+
+        colors={{ 
+            50: '#FFFBEF', 
+            100: '#FEF0C7', 
+            200: '#FEDF89',
+            300: '#FEC84B',
+            400: '#FDB022',
+            500: '#F79009',
+            600: '#DC6803',
+            700: '#B54708',
+            800: '#93370D',
+            }}
+    />
+
+    <ColorItem
+        title="Success"
+        subtitle="Utilisez-le pour communiquer un résultat favorable, comme un message de réussite."
+
+        colors={{ 
+            50: '#EDFFF3', 
+            100: '#D1FADF', 
+            200: '#A6F4C5',
+            300: '#6CE9A6',
+            400: '#32D583',
+            500: '#12B76A',
+            600: '#039855',
+            700: '#027A48',
+            800: '#05603A',
+            }}
+    />
+</ColorPalette>
+
+## Other Colors
+Il s'agit d'autres couleurs utilisées plus rarement dans le design system.
+
+<ColorPalette>
+    <ColorItem
+        title="Other Intelcia Colors"
+        subtitle= "Description"
+        colors={{ 
+            100: '#F08C75', 
+            200: '#ED6BA6',
+            300: '#7663A4',
+            400: '#F0B1C8',
+            500: '#B3A7CF',
+            600: '#F7C5BA',
+            700: '#ABDBC6',
+            800: '#70CBE7',
+            900: '#FDD477',
+            }}
+    />
+
+    <ColorItem
+        title="Gradient"
+        subtitle="Couleurs gradient"
+
+        colors={{ 
+            1: 'linear-gradient(to right, #EA297C, #C69DFF)', 
+            2: 'linear-gradient(to right, #D57EEB, #FCCB90)',
+            3: 'linear-gradient(to right, #B9B6E5, #7DE2FC)', 
+            4: 'linear-gradient(to right, #46AEF7, #30C7EC, #16D9E3)', 
+            5: 'linear-gradient(to right, #00CDAC, #02AAB0)', 
+            6: 'linear-gradient(to right, #87DBAA, #27AE60)', 
+            7: 'linear-gradient(to right, #F6B881, #F2994A)', 
+            8: 'linear-gradient(to right, #FE7B7B, #E75151)', 
+            }}
+    />
+</ColorPalette>

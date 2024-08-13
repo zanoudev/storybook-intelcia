@@ -1,0 +1,83 @@
+/* Tooltip.css */
+.tooltip-frame {
+    padding: 0%;
+    margin: 0%;
+    gap: 0px;
+}
+
+.tooltip-container, tooltip-container.none {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    display: flex;
+    padding: 8px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 8px;
+
+    margin: 0%;
+    
+    /* Shadow/lg */
+    box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+}
+
+.tooltip-container.dark {
+    background: var(--Gray-700, #344054);
+    color: #FFFFFF;
+}
+
+.tooltip-container.light {
+    background: var(--Base-White, #FFF);
+    color: #344054; 
+}
+
+.tooltip-text {
+    width: auto;
+    text-align: center;
+    border-radius: 6px;
+    /* padding: 5px 10px; */
+}
+
+
+.tooltip-arrow {
+    /* width: 16px;
+    height: 6px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    position: absolute;
+    top: 100%; /* Adjust as needed */
+    /* left: 50%; */
+    /* margin-left: -5px; */
+    /* padding: 0%; */
+
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    /* border-top: 10px solid #344054; */
+}
+
+.tooltip-arrow.dark.bottom-left, 
+.tooltip-arrow.dark.bottom-center, 
+.tooltip-arrow.dark.bottom-right {
+    border-top: 10px solid #344054;
+}
+
+.tooltip-arrow.light.bottom-left, 
+.tooltip-arrow.light.bottom-center, 
+.tooltip-arrow.light.bottom-right {
+    border-top: 10px solid #FFF;
+}
+
+.tooltip-container.light .tooltip-arrow{
+    border-top: 5px solid #FFF;
+}
+
+.tooltip-container.top.center .tooltip-arrow {
+    bottom: -5px;
+    left: 50%;
+    margin-left: -5px;
+    border-top: none;
+}
+
+/* Add additional styles for other arrow positions and themes */

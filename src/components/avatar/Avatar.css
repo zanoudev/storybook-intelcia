@@ -1,0 +1,149 @@
+  /* Font family and generic styles */
+  .avatar-container {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    border-radius: 200px;
+
+    color: #475467 /* grey 600 */;
+    font-size: 16px;
+    font-weight: 400;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F9FAFB; /* grey 50 */
+
+    padding: 0%;
+    margin: 0%;
+  }
+
+  /* Sizes */
+  .avatar-container.xxs {
+    width: 16px;
+    height: 16px;
+    font-size: 8px;
+  }
+
+  .avatar-container.xs {
+    width: 24px;
+    height: 24px;
+    font-size: 10px;
+  }
+
+  .avatar-container.sm {
+    width: 32px;
+    height: 32px;
+    font-size: 12px;
+  }
+
+  .avatar-container.md {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .avatar-container.lg {
+    width: 48px;
+    height: 48px;
+    font-size: 18px;
+  }
+
+  .avatar-container.xl {
+    width: 56px;
+    height: 56px;
+    font-size: 20px;
+  }
+
+  .avatar-container.xxl {
+    width: 64px;
+    height: 64px;
+    font-size: 24px;
+  }
+
+  /* Image background */
+  .avatar-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* make sure image fills container */
+  }
+
+  /* Focused state */
+  .avatar-container.focused {
+    border: 4px solid #F2F4F7;
+  }
+
+  /* Online indicator */
+  .avatar-container.online-indicator {
+    position: relative;
+  }
+
+  .avatar-container.online-indicator.xs::after {
+    width: 6px;
+    height: 6px;
+    bottom: -2px;
+    right: -2.5px;
+  }
+  
+  .avatar-container.online-indicator.sm::after {
+    width: 8px;
+    height: 8px;
+    bottom: -1.5px;
+    right: -2px;
+  }
+  
+  .avatar-container.online-indicator.md::after {
+    width: 10px;
+    height: 10px;
+    bottom: -1px;
+    right: -1.5px;
+  }
+  
+  .avatar-container.online-indicator.lg::after {
+    width: 12px;
+    height: 12px;
+    bottom: -0.5px;
+    right: -1px;
+
+  }
+  
+  .avatar-container.online-indicator.xl::after {
+    width: 14px;
+    height: 14px;
+    bottom: 0px;
+    right: -0.5px;
+  }
+  
+  .avatar-container.online-indicator.xxl::after {
+    width: 16px;
+    height: 16px;
+    bottom: 0.5px;
+    right: 1px;
+  }
+
+  .avatar-container.online-indicator::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1.5px solid #FFF;
+    background-color: #12B76A;
+    position: absolute;
+    bottom: 0.5px;
+    right: 0.5px;
+  }
+
+  .avatar-container.icon {
+    background-color: #FFF6FA; /* primary 50 */ 
+  }
+
+  /* Initials styling */
+  .avatar-initials{
+    display: flex; /* Center icon or initials vertically */
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+
+  .avatar-icon {
+    background-color: #FFF6FA ; /* primary 50 */
+  }

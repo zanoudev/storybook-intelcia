@@ -1,0 +1,39 @@
+.accordion {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 14px;
+    background: var(--Gray-100, #F2F4F7);
+    padding: 16px 24px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: inherit;
+}
+
+.media.img {
+    width: 450px;
+    height: 250px;
+    background-image: url('cover-image.png');
+}
+
+.media.video {
+    width: 560px;
+    height: 315px;
+    background-image: url('cover-video.png');
+}
+
+.accordion.closed {
+}
+
+.accordion.open {
+    border: 2px solid #EA297C;
+}

@@ -1,0 +1,53 @@
+.snackbar-container {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    width: 608px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.snackbar-container.dark {
+    background: var(--Gray-800, #1D2939);
+    color: var(--Intelcia-white, var(--Base-White, #FFF));
+}
+
+.snackbar-container.light {
+    background: var(--Gray-100, #F2F4F7);
+    color: var(--Gray-800, #1D2939);
+}
+.icon-text {
+    margin-left: 20px;
+}
+
+.snackbar-label {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px; /* 157.143% */
+}
+
+.snackbar-subtitle {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px; /* 157.143% */
+    letter-spacing: -0.28px;
+}
+
+.undo-text {
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 22px; /* 157.143% */
+    letter-spacing: -0.28px;
+}
+
+.close-icon {
+    margin-right: 20px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+}

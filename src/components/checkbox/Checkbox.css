@@ -1,0 +1,51 @@
+.checkbox-container {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  border-radius: 8px;
+  gap: 12px;
+  display: flex;
+  width: 344px;
+  height: fit-content;
+}
+
+.checkbox-container.with-supporting-text {
+  background-color: #FFF6FA;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  margin: 0px;
+  padding: 0;
+  margin-top: 0%;
+}
+
+.label {
+  color: var(--Gray-700, #344054);
+  height: fit-content;
+  margin: 0px;
+
+  /* Inter/Text/sm/Medium */
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+
+.supporting-text {
+  color: var(--Gray-500, #667085);
+  height: fit-content;
+  margin: 0px;
+
+  /* Gotham/sm/Regular */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: -0.28px;
+}
+

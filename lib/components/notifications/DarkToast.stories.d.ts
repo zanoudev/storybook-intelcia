@@ -1,0 +1,10 @@
+import { Meta } from '@storybook/react';
+import { DarkToastProps } from './DarkToast';
+declare const _default: Meta;
+export default _default;
+export declare const Exportation: import("@storybook/csf").AnnotatedStoryFn<import("@storybook/react").ReactRenderer, DarkToastProps>;
+export declare const Copied: import("@storybook/csf").AnnotatedStoryFn<import("@storybook/react").ReactRenderer, DarkToastProps>;
+export declare const Printer: import("@storybook/csf").AnnotatedStoryFn<import("@storybook/react").ReactRenderer, DarkToastProps>;
+export declare const ActionDone: import("@storybook/csf").AnnotatedStoryFn<import("@storybook/react").ReactRenderer, DarkToastProps>;
+export declare const Waiting: import("@storybook/csf").AnnotatedStoryFn<import("@storybook/react").ReactRenderer, DarkToastProps>;
+export declare const NoConnection: import("@storybook/csf").AnnotatedStoryFn<import("@storybook/react").ReactRenderer, DarkToastProps>;

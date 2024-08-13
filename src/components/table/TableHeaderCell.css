@@ -1,0 +1,23 @@
+.table-header-cell {
+    display: inline-flex;
+    width: 100%;
+    height: 44px;
+    padding: 12px 24px;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    border: 0px solid;
+}
+
+.table-header-cell.checkbox:hover {
+    border: 0px solid grey;
+}
+
+
+.table-header-cell.white, .table-header-cell.white:hover {
+    background: var(--Base-White, #FFF);
+}
+
+.table-header-cell.gray, .table-header-cell.gray:hover {
+    background: var(--Gray-50, #F9FAFB);
+}

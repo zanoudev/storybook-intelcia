@@ -1,0 +1,76 @@
+.container {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    width: 362px;
+    height: 48px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-shrink: 0;
+    padding: 0px 16px;
+    background: var(--Base-White, #FFF);
+}   
+
+.container.clicked {
+    background-color: #FCE3ED; /* primary 100 */
+}
+
+.container.clicked .info {
+    color: #EA287C; /* primary 500 */
+}
+
+.container.md {
+    height: 60px;
+    font-size: 14px;
+}
+
+.container.sm{
+    height: 46px;
+    font-size: 12px;
+}
+
+.container:hover {
+    background-color: #FFF6FA; /* primary 50 */
+}
+
+.container:active {
+    background-color: #FCE3ED; /* primary 100 */
+}
+
+.check-label {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    gap: 8px;
+}
+
+label {
+    width: fit-content;
+}
+
+.id-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+p {
+    margin: 0px;
+}
+
+.name {
+    font-weight: 600;
+    color: #344054;
+}
+
+.label, .id {
+    font-weight: 400;
+    color: #667085;
+}

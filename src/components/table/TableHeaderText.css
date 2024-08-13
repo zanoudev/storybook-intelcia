@@ -1,0 +1,17 @@
+.table-header {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--Gray-500, #667085);
+    cursor: pointer;
+}
+
+.table-header:hover {
+    color: var(--Gray-700, #344054);
+}
+
+.table-header.disabled, .table-header.disabled:hover {
+    color: var(--Gray-300, #D0D5DD);
+}
